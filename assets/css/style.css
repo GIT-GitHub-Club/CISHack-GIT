@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/background.jpg") top center;
   background-size: cover;
 }
 
@@ -287,7 +287,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: white;
 }
 
 .section-title h2::after {
@@ -296,7 +296,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: white;
   bottom: 0;
   left: 0;
 }
@@ -305,13 +305,26 @@ section {
   margin-bottom: 0;
 }
 
+.row {
+  color: white;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#about {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+.about p{
+  color: white;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: white;
 }
 
 .about .content ul {
@@ -326,7 +339,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: white;
 }
 
 .about .content p:last-child {
@@ -336,6 +349,17 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
+#facts {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
+.facts p{
+  color: white;
+}
+
 .facts {
   padding-bottom: 30px;
 }
@@ -348,7 +372,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: yellow;
   float: left;
 }
 
@@ -357,7 +381,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: white;
   margin-left: 60px;
 }
 
@@ -366,26 +390,37 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: white;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: white;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: white;
 }
 
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+#skills {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
+.skills p{
+  color: white;
+}
+
 .skills .progress {
   height: 50px;
   display: block;
@@ -397,9 +432,10 @@ section {
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
+  font-size: large;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: white;
 }
 
 .skills .progress .skill .val {
@@ -409,18 +445,27 @@ section {
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
+
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+
+  background-color: #ddc914;
 }
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+#resume {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -482,6 +527,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -582,6 +634,13 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -593,14 +652,14 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: yellow;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid red;
 }
 
 .services .icon i {
-  color: #fff;
+  color: red;
   font-size: 24px;
 }
 
@@ -620,11 +679,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: yellow;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: white;
 }
 
 .services .description {
@@ -636,6 +695,13 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+#testimonials {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
@@ -729,6 +795,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/mixbg.jpg") top center;
+  background-size: cover;
+}
+
 .contact {
   padding-bottom: 130px;
 }
