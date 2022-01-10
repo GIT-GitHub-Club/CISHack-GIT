@@ -1,6 +1,6 @@
 ### View here:
 
-click [here](https://smriti1313.github.io/smriti_portfolio-main/)
+click [here]()
 
 ### Note:
 ```
